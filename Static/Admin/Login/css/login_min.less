@@ -1,0 +1,107 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+input{
+	outline: none;
+}
+#main{
+	width: 100%;
+	height: 100%;
+	font-family: 微软雅黑;
+	#head{
+		width: 100%;
+		height: 280px;
+		background: #4C9ADA;
+		logo{
+			width: 264px;
+			height: 78px;
+			display: block;
+			margin: 0 auto;
+			background: url('./img/logo_ico.png');
+			position: relative;
+			top: 20px;
+		}
+		.title{
+			width: 320px;
+			margin: 0 auto;
+			text-align: center;
+			font-size: 34px;
+			color: #FFF;
+			margin-top: 25px;
+		}
+		error{
+			display: block;
+			width: 65%;
+			height: 50px;
+			margin: 0 auto;
+			background: #DB4E3C;
+			position: relative;
+			top: 50px;
+			font-size: 18px;
+			color: #FFF;
+			text-align: center;
+			line-height: 50px;
+			#triangle-down {
+				position: absolute;
+				top: 50px;
+				left: 25%;
+			    border-left: 10px solid transparent;
+			    border-right: 10px solid transparent;
+			    border-top: 20px solid #DB4E3C;
+			}
+		}
+	}
+	#body{
+		width: 100%;
+		height: auto;
+		margin-top: 20px;
+		.block{
+			width: 80%;
+			height: 75px;
+			margin-bottom: 20px;
+			margin: 0 auto;
+			background: #FFF;
+			position: relative;
+			margin-bottom: 25px;
+			border-radius: 2px;
+			border: 1px solid #B6B6B6;
+			d[click]{
+				width: 4px;
+				height: 100%;
+				background: #DA4D3B;
+				display: block;
+				position: absolute;
+				top: 0px;
+				margin-left: -1px;
+			}
+			input{
+				width: calc(~"100% - 10px");
+				height: 100%;
+				background: #FFF;
+				font-size: 30px;
+				padding-left: 6px;
+				font-family: 微软雅黑;
+				color: #B8B6B7;
+				border: 0px;
+			}
+		}
+		.submit{
+			width: 80%;
+
+			height: 75px;
+
+			margin: 0 auto;
+			// border: 1px solid #000;
+			input{
+				width: 100%;
+				height: 100%;
+				border:0px;
+				background: #4C9ADA;
+				font-size: 30px;
+				color: #FFF;
+				font-family: 微软雅黑;
+			}
+		}
+	}
+}
